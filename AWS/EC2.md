@@ -36,5 +36,5 @@ Example : For AWS-linux - ec2-user
 
 ---
 
-### SSH vs. EC2 Insatnce Connect
+### 
 
