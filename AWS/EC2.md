@@ -24,7 +24,9 @@
 
 Example : For AWS-linux - ec2-user
            For Ubuntu - Ubuntu
-
+```
+---
+```
 - If you get a **Connection timeout** error by SSH. 
     1. SG is not configured correctly
     2. Check the route table for the subnet(routes traffic destined outside VPC to IGW)
