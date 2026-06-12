@@ -27,7 +27,7 @@ Example : For AWS-linux - ec2-user
 ```
 ---
 
-### If you get a **Connection timeout** error by SSH. 
+### If you get a Connection timeout: error by SSH. 
 ```
     1. SG is not configured correctly
     2. Check the route table for the subnet(routes traffic destined outside VPC to IGW)
@@ -39,5 +39,35 @@ Example : For AWS-linux - ec2-user
 
 ---
 
-### 
+### CloudWatch Metrics for EC2
+
+```
+* AWS Provided Metrics(AWS pushes them):
+
+ * AWS provides some metrics for your EC2 instances.
+ * AWS push this metrics for you.
+    -Basic monitoring (default): metrics aer collected at a 5 minute interval
+    -Detailed monitoring (paid):  metrics are collected at a 1 mintute interval
+    -These metrics includes CPU, Network, Disk and Status Check Metrics
+
+* Custom Metrics (Yours to push):
+    -Basic Resolution: 1 minute resolution
+    -High Resolution: all the way to 1second resolution
+    -Custom metrics inculdes RAM, application level metrics
+
+```
+
+---
+
+### EC2 included metrics
+```
+  - CPU : CPU utilization + credit Usage /Balacnce
+  - Netowork: Network In / Out
+  - Status Check: Insaance status, system status,attached EBS status
+  - Disk : Read / Write for Ops /Bytes
+
+  Note: RAM is not included in the EC2 metrics
+```
+
+---
 
