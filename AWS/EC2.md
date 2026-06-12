@@ -8,6 +8,5 @@
 * Stop the instance
 * Instance Settings => Change Instance Type
 * Start Instance
-
 '''
 ---
