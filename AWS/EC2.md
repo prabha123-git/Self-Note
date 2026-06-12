@@ -25,14 +25,14 @@
 Example : For AWS-linux - ec2-user
            For Ubuntu - Ubuntu
 
-- If you get a **Connection timeout** error by SSH. 
+- If you get a ** Connection timeout ** error by SSH. 
     * SG is not configured correctly
     * Check the route table for the subnet(routes traffic destined outside VPC to IGW)
     * NACL is not configured correctly
     * Insatance doesn't have a public IPV4
     * CPU load of the instance is high
  
-    ```
+```
 
 ---
 
