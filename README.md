@@ -1,1 +1,1 @@
-# Self-Note
+# Devops is integrate the processes between software development and IT teams.
