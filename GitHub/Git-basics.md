@@ -252,6 +252,91 @@ Output:
 ```text
 origin/main
 ```
+---
+
+---
+
+# Git Log
+
+## View Commit History
+
+```bash
+git log
+```
+
+Purpose:
+Displays the complete commit history of the repository.
+
+When to Use:
+Use this command to view previous commits, identify commit IDs, track project changes, and investigate commit history.
+
+---
+
+## View Compact Commit History
+
+```bash
+git log --oneline
+```
+
+Purpose:
+Displays commit history in a compact, single-line format.
+
+---
+
+# Git Diff
+
+## Compare Two Commits
+
+```bash
+git diff <commit1> <commit2>
+```
+
+Example:
+
+```bash
+git diff a1b2c3d d4e5f6g
+```
+
+Purpose:
+Shows the differences between two commits.
+
+When to Use:
+Use this command to identify what changes were made between two versions of the code.
+
+---
+
+# Git Prune
+
+## Remove Stale Remote References
+
+```bash
+git fetch --prune
+```
+
+Purpose:
+Fetches the latest updates from the remote repository and removes remote-tracking branches that no longer exist on the remote.
+
+When to Use:
+Use this command when branches have been deleted from GitHub/GitLab but still appear in your local repository.
+
+---
+
+## Remove Stale Remote References Without Fetching
+
+```bash
+git remote prune origin
+```
+
+Purpose:
+Removes stale remote-tracking branches without fetching new updates.
+
+When to Use:
+Use this command when you only want to clean up obsolete remote branch references.
+
+
+
+
+
 
 ---
 
